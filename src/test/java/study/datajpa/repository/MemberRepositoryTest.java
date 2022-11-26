@@ -265,4 +265,9 @@ class MemberRepositoryTest {
     public void callCustom() {
         List<Member> result = memberRepository.findMemberCustom();
     }
+
+    @Test
+    public void queryByExample() {
+        //Team teamA = new Team("teamA")
+    }
 }
